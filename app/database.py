@@ -5,10 +5,10 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 
-server = 'DESKTOP-E0FLFBP\ADITYASQL'  # Replace with your server hostname or IP address
+server = ''  # Replace with your server hostname or IP address
 database = 'LibraryDB'  # Replace with your database name
-username = 'sa'  # Replace with your SQL Server username
-password = 'Password123'  # Replace with your SQL Server password
+username = ''  # Replace with your SQL Server username
+password = ''  # Replace with your SQL Server password
 
 # Define the SQLAlchemy database connection
 engine = create_engine(f'mssql+pyodbc://{username}:{password}@{server}/{database}?driver=ODBC+Driver+17+for+SQL+Server')
